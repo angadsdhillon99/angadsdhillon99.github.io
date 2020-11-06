@@ -1,0 +1,40 @@
+/*CSS*/
+body {
+    background: #6091C3;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container {
+    min-height: 100%;
+  }
+  
+  .header {
+    color:#fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  @media only screen and (min-width : 1600px){
+    .container{justify-content: space-between;
+    }
+  }
+ul li{
+background-color: rgba(0,255,0,0.5);
+padding: 1%;
+margin-bottom: 10px;
+flex-flow: row wrap;
+width: 300px; 
+list-style-type: none;
+align-items: start;
+align-self: left;
+}
